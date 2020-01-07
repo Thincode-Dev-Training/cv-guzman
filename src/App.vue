@@ -1,32 +1,39 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+
+    <Menu/>
+    <v-content>
+      <router-view/>
+    </v-content>
+
+  </v-app>
 </template>
 
+<script>
+import Menu from './components/Menu';
+
+export default {
+  name: 'App',
+
+  components: {
+    Menu
+  },
+
+  data: () => ({
+  }),
+};
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  .v-fade-enter-active{
+    transition: all .8s ease;
+  }
+  .v-fade-leave-active {
+    transition: all .20s cubic-bezier(.17, .67, .83, .67);
+  }
+  .v-fade-enter, .v-fade-leave-to {
+    transform: translateY(800px);
+    opacity: 0;
+  }
 </style>
+
