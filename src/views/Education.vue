@@ -28,8 +28,8 @@
   export default {
     data: () => ({
       items: [
-        {name: 'Universidad de Guanajauato', title: 'Computer Systems Engineering', date: '2015 - 2019', activity: '2019 - Work on Analysis of dynamic scenes for motion detection in Summer Research at the Universidad de Guanajuato, in which a vision system was configured using a RGB-D sensor to capture color images (RGB) anddepth(D)'},
-        {name: 'CECyTEG', title: 'Technician in Support and Maintenance to Computer equipment', date: '2011 - 2014', activity: "I didn't do anything important in high school but it looks very ugly if I don't put something here, chale!"}
+        {name: 'Universidad de Guanajuato', title: 'Computer Systems Engineering', date: '2015 - 2019', activity: '2019 - Work on Analysis of dynamic scenes for motion detection in Summer Research at the Universidad de Guanajuato, in which a vision system was configured using a RGB-D sensor to capture color images (RGB) anddepth(D)'},
+        {name: 'CECyTEG', title: 'Technician in Support and Maintenance to Computer equipment', date: '2011 - 2014', activity: ""}
       ]
     }),
   }

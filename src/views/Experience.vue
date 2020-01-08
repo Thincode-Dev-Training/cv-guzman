@@ -28,10 +28,10 @@
   export default {
     data: () => ({
       items: [
-        {name: 'Thincode', title: 'Desarrollador Jr.', date: 'August 2019 - Current',
+        {name: 'Thincode', title: 'Jr Developer', date: 'August 2019 - Current',
         activity: 'Training in different tools such as Ruby on Rails, Rspec, Vue, etc. / Support in development activities within a migration project. / Support in maintaining communication with the client.'},
         {name: 'Doble Clik', title: 'Technician', date: 'June 2017 - November 2017',
-        activity: 'Technical support to customers to customers, helping to solve equipment or connection problems. / Configuration of routers, antennas and company equipment. / Route management for problem attention.'}
+        activity: 'Technical support to customers, helping to solve equipment or connection problems. / Configuration of routers, antennas and company equipment. / Route management for problem attention.'}
       ]
     }),
   }
